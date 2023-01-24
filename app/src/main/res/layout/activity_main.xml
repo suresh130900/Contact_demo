@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nothern_ligths" />
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Enter Name"
+        android:textSize="35dp"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:hint="Enter Email"
+        android:textSize="35dp"
+        android:layout_height="wrap_content"/>
+
+    <ListView
+        android:id="@+id/programming"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:listSelector="@android:color/holo_green_light"
+        android:choiceMode="multipleChoiceModal"
+        />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:text="Submit"
+        android:layout_margin="15dp"
+        android:textSize="25dp"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
